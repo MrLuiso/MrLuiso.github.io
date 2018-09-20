@@ -7,9 +7,26 @@
 
 <body>
 
-	
+	<button onclick="addSomething()">Press Me!</button>
+
+
+	<div id="bucket">
+		
+	</div>
+
+
 	
 </body>
+
+<script type="text/javascript">
+	function addSomething(){
+		var p = document.createElement('p');
+
+		p.innerHTML = '😲';
+
+		document.getElementById('bucket').appendChild(p);
+	}
+</script>
 
 
 
